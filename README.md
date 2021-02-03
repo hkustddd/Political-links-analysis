@@ -8,6 +8,7 @@
 
 ## 准备
 类似下面有高管简历的csv文件
+
 ![Alt text](https://github.com/hkustddd/Political-links-analysis/blob/main/2021-02-04-00022.png "csv文件")
 ## 过程讲解
 
@@ -27,6 +28,8 @@
 这时absolute=1  否则 absolute=0
 同时我们关键词 匹配到的内容 放在了 absolute 的左边一列 用 “关键词：【匹配内容】” 形式给出，供人工核查
 
+
+![Alt text](https://github.com/hkustddd/Political-links-analysis/blob/main/abso.png "absolute")
 ### 2 模糊匹配的方法
 
 第二种匹配是模糊的匹配，由于政治连接的表现形式各种各样，我们用一些常见的关键词进行匹配
@@ -34,12 +37,15 @@
 结果显示为 relative=1 否则 relative=0
 同样的我们在旁边的一列给出了模糊匹配的所有匹配结果，供筛查
 
-
+![Alt text](https://github.com/hkustddd/Political-links-analysis/blob/main/rela.png "rela")
 
 
 ### 政治身份匹配（人大政协）
 这个匹配的结果 准确度很高 因为只有人大代表 和政协委员 以及党代表 三种情况
 结果显示为 political status= 1 或 0
+
+
+![Alt text](https://github.com/hkustddd/Political-links-analysis/blob/main/poli.png "dic")
 
 ## 总结
 当absolute=0  relative=0 和 status=0 时， 我们基本可以排除掉有政治连接可能性 
