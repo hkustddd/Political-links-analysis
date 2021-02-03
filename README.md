@@ -8,7 +8,7 @@
 
 ## 准备
 类似下面有高管简历的csv文件
-
+![Alt text](https://github.com/hkustddd/Political-links-analysis/blob/main/2021-02-04-00022.png "csv文件")
 ## 过程讲解
 
 接下来运行我们的 py 程序就好
