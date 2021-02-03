@@ -15,7 +15,7 @@
 接下来运行我们的 py 程序就好
 
 ### 1 字典
-我们自己整理的一个字典，匹配出的结果是 absolute
+我们自己整理的一个字典dictionary.txt，匹配出的结果是 absolute
 字典来源：
 > CPC 新闻网 http://cpc.people.com.cn/n1/2021/0106/c64387-31991429.html
 
