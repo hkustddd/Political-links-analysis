@@ -1,5 +1,10 @@
 # Political-links-analysis 1.0
 从高管简历出发分析企业政治连接的情况
+指标度量参考
+
+> A Dual-Agency Model of Firm CSR in Response to Institutional Pressure: Evidence from Chinese Publicly Listed Firms
+
+> Government Initiated Corporate Social Responsibility Activities: Evidence from a Poverty Alleviation Campaign in China
 
 这个项目是基于很多在管理学研究中需要用到企业政治连接情况作为研究的变量，但这个在指标在wind， CSRMAR等数据库中不能直接获得，只能通过人工的coding，得出相应的指标。
 那么我们就希望能够减少coding过程花费的时间，这个版本是最原始的版本，希望后面能更加完善，也希望有更多大神一起分享 update这个项目（盲猜大佬用ML的方法能做的更好）
@@ -52,5 +57,7 @@
 至于absolute 匹配 和 relative 匹配 建议人工再筛
 
 希望后面字典更加完善或者找到更好的方法时，能够更加准确的匹配。 欢迎大家update
+
+
 
 Author： DUAN Bright， Li JL
